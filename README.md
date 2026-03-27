@@ -15,10 +15,11 @@ GameTimerView, and WinPopupView, keeping the UI modular and the logic centralize
 
 
 *** Building/Running ***
-- Open the project in Xcode, build/run from the Queens scheme
+- Open the Queens.xcodeproj project in Xcode, build/run from the Queens scheme
 
 
 *** Testing ***
+- Recommend to test each file individually:
 - Unit Test files are:
     GameTimerTests.swift        - Covers Game Timer Tests
     GameViewModelTests.swift    - Covers Game Logic Tests
