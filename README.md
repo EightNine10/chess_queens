@@ -4,6 +4,8 @@ N-Queens Puzzle Game
 Peter Rutherford
 Application for iOS Developer position at Chess.com
 
+Short App Video available in the Github Repo root folder as [app_video.mov]
+
 ** Overview ***
 The app uses a simple MVVM-style architecture with a clear split between menu and gameplay.
 
