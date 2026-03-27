@@ -40,18 +40,15 @@ GameTimerView, and WinPopupView, keeping the UI modular and the logic centralize
   - GameView owns the active game screen and creates the GameViewModel for the chosen board size
 
 - Game View
-  - BoardView for the grid
-  - GameTimerView for the timer display
-  - WinPopupView for the win overlay
   - BoardView builds the board by creating a BoardSquareView for each square
-  - BoardView Passes data downward into focused child views, so views like stay lightweight and presentation-focused.
+  - BoardView Passes data downward into focused child views, so views stay lightweight
 
 - Data
-  - Stores queen positions in a Set<SquarePos> for simple updates and fast lookups.
-  - Stores best times with lightweight persistence through UserDefaults.
+  - GameViewModel stores queen positions in a Set<SquarePos> for simple updates and fast lookups
+  - UserDefaults stores best times with lightweight persistence through UserDefaults
 
 - Testing
-  - Used protocol-based abstractions for sound and best-time storage to improve testability.
+  - Used protocol-based abstractions for sound and best-time storage to improve testability
 
  
 *** AI-Code Generation Tool Disclosures
